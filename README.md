@@ -26,22 +26,18 @@ Make sure you have the following installed on your system:
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/your-repo-name.git
-2.cd your-repo-name
-3.npm install
-4.npx tailwindcss init
+2.```bash
+cd your-repo-name
+3.```bash
+npm install
+4.```bash
+npx tailwindcss init
 
 ## Usages
 
--npm run dev
--npm run build
+-```bash
+npm run dev
+-```bash
+npm run build
 
-## Project structure
 
-├── public/             # Static files (e.g., images, fonts)
-├── src/                # Source code
-│   ├── index.html      # Landing page HTML
-│   └── input.css       # Tailwind input file (where you can @import utilities)
-├── css/
-│   └── main.css        # Generated Tailwind CSS file
-├── tailwind.config.js  # Tailwind CSS configuration file
-└── package.json        # NPM scripts and dependencies
